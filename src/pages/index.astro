@@ -1,14 +1,27 @@
 ---
 import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
+const {default : meData} = await import('../assets/me.json');
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<h1>[meData.nombre]</h1>
-	<h2>[meData.apellido]</h2>
-	<h3>[meData.profesion]</h3>
-	<h4>[meData.estudios]</h4>
+	<h1>{meData.nombre}</h1>
+	<p>{meData.profesion}</p>	
+	<p>{meData.biografia}</p>
+	<h2>Experiecia</h2>
+	{meData.experiencia.map((exp) => ( 
+		<p>{exp.empresa}</p>
+		<p>{exp.descripcion}</p>
+		<p>{exp.fecha_inicio}</p>
+		<p>{exp.fecha_fin}</p>
+	))}
+	<h2>Softskills</h2>
+	
+	{meData.SoftSkills.map ((hab) => (
+		<p>{hab.habilidad}</p>
+		<p>{hab.habilidad2}</p>
+	))}
+
 </Layout>
