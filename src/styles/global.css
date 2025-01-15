@@ -1,6 +1,84 @@
-section{
-    max-width: 200;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4; 
+    margin-right: 20px;
+    color: #333;
+}
+
+
+.cabecera {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    border: 5px solid#444;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 10px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: fit-content;
+    gap: 16px  ;
+    text-align: center;
+    
+
+}
+.cabecera h1 {
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.bio {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+.profesion {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+section {
     margin-left: auto;
     margin-right: auto;
-    background-color: brown;
+    font-style: normal; 
+    color: #444;
+    max-width: 1200px;
+}
+
+.experiencia {
+    border: 2px solid #ccc;
+    border-radius: 10px; 
+    color: #555; 
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.experiencia p {
+    font-size: 15px;
+    font-weight: bold;
+    width: fit-content;
+}
+
+#Mercadona {
+    background-color: #e1e1e1; 
+    color: #333; 
+}
+
+.habilidad {
+    border: 2px solid #ccc;
+    border-radius: 10px; 
+    padding: 10px;
+    background-color: rgb(207, 215, 223);
+    font-weight: bold;
+    width: fit-content;
+    margin-right: 10px;
+}
+.habilidad p{
+    margin: 0px;
+}
+.disposicionHab {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 0px;
 }

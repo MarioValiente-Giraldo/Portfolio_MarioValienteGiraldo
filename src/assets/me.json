@@ -1,7 +1,7 @@
 {
   "nombre": "Mario Valiente Giraldo",
   "profesion": "Estudiante DAW 1º curso",
-  "biografia": "Hola",
+  "biografia": "Soy un estudiante que quiere aprender a programar de la mejor manera posible para así poder dedicarme a ello, ya que es algo que me gusta",
   "experiencia": [
     {
       "cargo": "Gerente A",
@@ -19,10 +19,12 @@
     }
   ],
   "SoftSkills": [
-    {
-        "habilidad":"Comunicación asertiva",
-        "habilidad2":"Trabajo en equipo"
-    }
+    
+        "Comunicación asertiva",
+        "Trabajo en equipo",
+        "Responsabilidad",
+        "Comprensivo"
+    
   ]
   
 }
