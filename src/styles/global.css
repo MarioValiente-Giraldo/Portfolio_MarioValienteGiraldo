@@ -42,11 +42,13 @@ section {
     margin-right: auto;
     font-style: normal; 
     color: #444;
+    margin-top: 84px;
     max-width: 1200px;
 }
 
 .experiencia {
     border: 2px solid #ccc;
+
     border-radius: 10px; 
     color: #555; 
     padding: 20px;
@@ -81,4 +83,22 @@ section {
     flex-wrap: wrap;
     display: flex;
     gap: 0px;
+}
+
+.enlace-proyecto :hover{
+    color: black;
+    text-decoration: underline;
+}
+.enlace-proyecto{
+    text-decoration: none;
+}
+.proyecto{
+    border: 2px solid #ccc;
+    border-radius: 10px; 
+    color: #555; 
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #efe7e7; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
 }
